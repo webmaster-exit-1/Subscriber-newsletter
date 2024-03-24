@@ -1,6 +1,21 @@
 """
-To create a self-contained program that can handle the functionality described by your friend, we can use Python and its built-in libraries. The program will include features like email sending, unsubscribe management, GDPR compliance, and a simple user interface for managing newsletters and subscribers.
+This program uses SQLite to store subscriber information, including their email addresses and subscription status. 
+It provides a simple command-line interface for managing newsletters and subscribers.
+
+To use the program, you'll need to replace `'your_smtp_server'`, `'your_username'`, 
+and `'your_password'` with your actual SMTP server details.
+
+The program includes the following features:
+1. Sending newsletters to subscribed users
+2. Adding new subscribers
+3. Unsubscribing users
+4. GDPR compliance (users can unsubscribe, and their subscription status is stored in the database)
+
+Please note that this is a basic implementation and may require additional features and improvements based on 
+your specific requirements, such as handling bounced emails, providing a web interface for user sign-up and unsubscribe, 
+and more advanced email templating.
 """
+
 
 import smtplib
 import sqlite3
@@ -81,17 +96,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-"""
-This program uses SQLite to store subscriber information, including their email addresses and subscription status. It provides a simple command-line interface for managing newsletters and subscribers.
-
-To use the program, you'll need to replace `'your_smtp_server'`, `'your_username'`, and `'your_password'` with your actual SMTP server details.
-
-The program includes the following features:
-1. Sending newsletters to subscribed users
-2. Adding new subscribers
-3. Unsubscribing users
-4. GDPR compliance (users can unsubscribe, and their subscription status is stored in the database)
-
-Please note that this is a basic implementation and may require additional features and improvements based on your specific requirements, such as handling bounced emails, providing a web interface for user sign-up and unsubscribe, and more advanced email templating.
-"""
