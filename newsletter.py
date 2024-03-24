@@ -12,8 +12,8 @@ The program includes the following features:
 4. GDPR compliance (users can unsubscribe, and their subscription status is stored in the database)
 
 Please note that this is a basic implementation and may require additional features and improvements based on 
-your specific requirements, such as handling bounced emails, providing a web interface for user sign-up and unsubscribe, 
-and more advanced email templating.
+your specific requirements, such as handling bounced emails, providing a web interface for user sign-up and 
+unsubscribe, and more advanced email templating.
 """
 
 
@@ -96,3 +96,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
