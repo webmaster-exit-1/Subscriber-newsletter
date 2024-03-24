@@ -78,19 +78,4 @@ The following configuration options are available in `config.py`:
 - `SMTP_PASSWORD`: SMTP password for authentication.
 - `SECRET_KEY`: Secret key for Flask session management.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For any inquiries or questions, please contact [your-email@example.com](mailto:your-email@example.com).
-
 ---
-
-Feel free to customize the README file based on your specific project details, such as the repository URL, contact information, and any additional sections or instructions relevant to your newsletter system.
-Add to Conversation
