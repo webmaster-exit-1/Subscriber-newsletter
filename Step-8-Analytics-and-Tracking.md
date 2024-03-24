@@ -76,4 +76,6 @@ In this example, we introduce tracking functionality and analytics:
 
 - `send_newsletter_with_tracking(newsletter_id)`: This function sends the newsletter with tracking capabilities. It includes a tracking pixel in the newsletter body, which is a small transparent image with a unique tracking URL. When the newsletter is opened and the tracking pixel is loaded, it triggers the `process_tracking_request()` function to record the opening event.
 
-- `get_newsletter_analytics(
+- `get_newsletter_analytics(newsletter_id)`: This will retrieve the analytics data for the newsletter with ID 1 and print the total sent, total opened, and open rate.
+
+With the `get_newsletter_analytics()` function completed, you now have a way to retrieve and analyze the performance metrics of your newsletters.
