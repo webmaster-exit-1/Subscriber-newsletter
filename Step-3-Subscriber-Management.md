@@ -63,5 +63,3 @@ These functions interact with the database using SQL queries to perform the nece
 With the subscriber management functionality in place, we can add new subscribers, unsubscribe them, update their preferences, and retrieve the list of subscribed subscribers.
 
 In the next step, we'll focus on newsletter creation and sending, where we'll implement functions to compose and store newsletter content, and send newsletters to subscribed users.
-
-Please let me know if you have any questions or if you'd like me to proceed with the Newsletter Creation and Sending step.
