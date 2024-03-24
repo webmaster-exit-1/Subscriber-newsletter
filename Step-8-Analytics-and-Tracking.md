@@ -80,9 +80,8 @@ In this example, we introduce tracking functionality and analytics:
 
 With the `get_newsletter_analytics()` function completed, you now have a way to retrieve and analyze the performance metrics of your newsletters.
 
-Apologies for the confusion. Let me complete the explanation for the `get_newsletter_analytics(newsletter_id)` function:
-
-- `get_newsletter_analytics(newsletter_id)`: This function retrieves analytics data for a specific newsletter. It performs the following steps:
+- `get_newsletter_analytics(newsletter_id)`: This function retrieves analytics data for a specific newsletter. It performs the following
+steps:
   1. It establishes a connection to the database using `get_db_connection()`.
   2. It executes a SQL query to count the total number of subscribers to whom the newsletter was sent, using the `newsletter_id`.
   3. It executes another SQL query to count the number of subscribers who opened the newsletter, by checking the `opened_at` timestamp in the `newsletter_subscribers` table.
